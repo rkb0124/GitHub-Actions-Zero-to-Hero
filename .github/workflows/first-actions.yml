@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: ip-172-31-12-221
+    runs-on: self-hosted
 
     strategy:
       matrix:
